@@ -1,0 +1,339 @@
+
+
+/* NEW STYLES */
+
+.bg {
+    background-color: #bcdb95;
+}
+
+.bg p {
+		padding: 40px;
+		font-family: "Arial", sans-serif;	
+}
+
+.info {
+		padding: 20px 0px;
+		margin: 0px;
+		opacity: 0.0;
+}
+.info h2 {
+		padding: 0;
+		margin: 0;
+		font-size: 20px;
+		color: #95C857;
+		font-family: "Arial", sans-serif;
+}
+
+.fam-people .info {
+		opacity: 1.0;
+}
+
+
+.fam-people {
+		display: table;
+}
+
+.fam-people div{
+		display: table-cell;
+}
+
+.fam-people div img {
+		width: 100%;
+		margin: 0 auto;
+		padding: 0px 10px;
+}
+
+
+
+1#group-wrapper {
+	width: 100%;
+	margin: auto;
+	background-color: #bcdc95;
+	font-family: "Arial", sans-serif;
+	height: 474px;
+	position: relative;
+}
+
+#intro {
+	position: relative;
+	top: 225px;
+	background-color: #95C857;
+	margin: auto;
+	padding: 15px;
+	width: 890px;
+	height: 125px;
+	font-size: 13px;
+	border: 2px solid #fff;
+	z-index: 1000;
+}
+
+#intro h1 {
+	color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+}
+
+#intro img {
+	vertical-align: top;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+#show-intro {
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+	color: #fff;
+	background-color: #95C857;
+	cursor: pointer;
+	padding: 4px;
+	border: 2px solid #fff;
+	font-size: 10px;
+	z-index: 1001;
+	display: none;
+}
+
+#group {
+	margin: auto;
+	margin-top: 110px;
+	background-color: #bcdc95;
+	position: relative;
+	top: -240px;
+	width: 990px;
+	height: 444px;
+}
+
+#close-button {
+	position: absolute;
+	top: -20px;
+	left: 0;
+	cursor: pointer;
+	display: none;
+	z-index: 4;
+}
+
+.person-bio {
+	display: none;
+	position: absolute;
+	z-index: 3;
+	height: 444px;
+	background-color: #bcdc95;
+	overflow: hidden;
+	font-size: 12px;
+}
+
+.person-bio div {
+	margin-left: 396px;
+	padding-right: 10px;
+	height: 375px;
+}
+
+.person-bio blockquote {
+	margin: 0;
+	padding: 0;
+	padding-right: 10px;
+	height: 300px;
+	overflow: auto;
+}
+
+.person-bio h1 {
+	color: #088DB4;
+	margin: 0;
+	padding: 0;
+	margin-top: 25px;
+	font-size: 24px;
+}
+
+.person-bio span {
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.person-bio-img {
+	position: absolute;
+	bottom: 0;
+}
+
+.person-bio img {
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.person-title {
+	display: none;
+	position: absolute;
+	z-index: 2;
+    width: 200px;
+}
+
+.person-title h1 {
+	margin: 0;
+	padding: 0;
+	color: #088DB4;
+	font-size: 16px;
+	text-align: center;
+}
+
+.person-title span {
+	color: #FFFFFF;
+	text-align: center;
+	display: block;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.person-photo {
+	background: url(../img/new-people/family-pride-up.jpg) no-repeat bottom;
+}
+
+.person-photo, .person-photo img {
+	cursor: pointer;
+	height: 444px;
+	bottom: 0;
+}
+
+.contact-info {
+	font-weight: bold;
+	font-size: 13px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/* lisa waldron */
+#lisa-waldron-container {
+    position: absolute;
+    left: 0;
+    width: 136px;
+    background-position: -8px;
+}
+
+#lisa-waldron-title {
+    top: 33px;
+    left: -36px;
+}
+
+#lisa-waldron {
+    width: 136px;
+}
+
+/* amanda cain goodman */
+#amanda-goodman-container {
+    position: absolute;
+    left: 136px;
+    width: 108px;
+    background-position: -144px;
+}
+
+#amanda-goodman-title {
+    top: 42px;
+    left: 92px;
+}
+
+#amanda-goodman {
+    width: 108px;
+}
+
+/* James Quigg */
+#james-quigg-container {
+	position: absolute;
+	left: 244px;
+	width: 107px;
+	background-position: -252px;
+}
+
+#james-quigg-title {
+	top: 42px;
+	left: 194px;
+}
+
+#james-quigg {
+	width: 107px;
+}
+
+/* Bill Quigg */
+#bill-quigg-container {
+	position: absolute;
+	left: 351px;
+	width: 142px;
+	background-position: -359px;
+}
+
+#bill-quigg-title {
+	top: 23px;
+	left: 306px;
+}
+
+#bill-quigg {
+	width: 162px;
+}
+
+/* Felicia Quigg */
+#felicia-quigg-container {
+	position: absolute;
+	left: 493px;
+	width: 153px;
+	background-position: -501px;
+}
+
+#felicia-quigg-title {
+	top: 15px;
+	left: 474px;
+}
+
+#felicia-quigg {
+	width: 153px;
+}
+
+/* Rob Quigg */
+
+#rob-quigg-container {
+	position: absolute;
+	left: 646px;
+	width: 130px;
+	background-position: -654px;
+}
+
+#rob-quigg-title {
+	top: 29px;
+	left: 617px;
+}
+
+#rob-quigg {
+	width: 118px;
+}
+
+/* Andrea Stuckey */
+#andrea-stuckey-container {
+    position: absolute;
+    left: 776px;
+    width: 99px;
+    z-index: 1;
+    background-position: -784px;
+}
+
+#andrea-stuckey-title {
+    top: 29px;
+    left: 718px;
+}
+
+#andrea-stuckey {
+    width: 99px;
+}
+
+/* Sean Anderson */
+#sean-anderson-container {
+    position: absolute;
+    left: 875px;
+    width: 104px;
+    z-index: 1;
+    background-position: -883px;
+}
+
+#sean-anderson-title {
+    top: 20px;
+    left: 819px;
+}
+
+#sean-anderson {
+    width: 104px;
+}

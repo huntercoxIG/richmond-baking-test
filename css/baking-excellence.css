@@ -1,0 +1,255 @@
+#group-wrapper {
+    width: 100%;
+    margin: auto;
+    background-color: #bcdc95;
+    font-family: "Arial", sans-serif;
+    height: 474px;
+    position: relative;
+}
+
+#intro {
+    position: relative;
+    top: 175px;
+    background-color: #95C857;
+    margin: auto;
+    padding: 15px;
+    width: 890px;
+    height: 125px;
+    font-size: 13px;
+    border: 2px solid #fff;
+    z-index: 1000;
+}
+
+#intro h1 {
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+#intro img {
+    vertical-align: top;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#show-intro {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    color: #fff;
+    background-color: #95C857;
+    cursor: pointer;
+    padding: 4px;
+    border: 2px solid #fff;
+    font-size: 10px;
+    z-index: 1001;
+    display: none;
+}
+
+#group {
+    margin: auto;
+    margin-top: 110px;
+    background-color: #bcdc95;
+    position: relative;
+    top: -240px;
+    width: 990px;
+    height: 444px;
+}
+
+#close-button {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    cursor: pointer;
+    display: none;
+    z-index: 4;
+}
+
+.person-bio {
+    display: none;
+    position: absolute;
+    z-index: 3;
+    height: 444px;
+    background-color: #bcdc95;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.person-bio div {
+    margin-left: 396px;
+    padding-right: 10px;
+    height: 375px;
+}
+
+.person-bio blockquote {
+    margin: 0;
+    padding: 0;
+    padding-right: 10px;
+    height: 300px;
+    overflow: auto;
+}
+
+.person-bio h1 {
+    color: #088DB4;
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+    font-size: 24px;
+}
+
+.person-bio span {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.person-bio-img {
+    position: absolute;
+    bottom: 0;
+    height: 435px;
+}
+
+.person-bio img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.person-title {
+    display: none;
+    position: absolute;
+    z-index: 2;
+}
+
+.person-title h1 {
+    margin: 0;
+    padding: 0;
+    color: #088DB4;
+    font-size: 16px;
+    text-align: center;
+}
+
+.person-title span {
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.person-photo {
+    background: url(../img/new-people/baking-excellence-up.jpg) no-repeat bottom;
+}
+
+.person-photo, .person-photo img {
+    cursor: pointer;
+    height: 415px;
+    bottom: 0px;
+}
+
+.contact-info {
+    font-weight: bold;
+    font-size: 13px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* kevin tillman */
+#kevin-tillman-container {
+    position: absolute;
+    left: 88px;
+    width: 132px;
+    background-position: -88px;
+}
+
+#kevin-tillman-title {
+    top: 15px;
+    left: 105px;
+}
+
+#kevin-tillman {
+    width: 132px;
+}
+
+/* greg janzow */
+#greg-janzow-container {
+    position: absolute;
+    left: 220px;
+    width: 155px;
+    background-position: -220px;
+}
+
+#greg-janzow-title {
+    top: 5px;
+    left: 205px;
+}
+
+#greg-janzow {
+    width: 155px;
+}
+
+/* robert hurd */
+#robert-hurd-container {
+	position: absolute;
+	left: 375px;
+	width: 129px;
+	background-position: -375px;
+}
+
+#robert-hurd-title {
+    top: 5px;
+    left: 322px;
+}
+
+#robert-hurd {
+	width: 129px;
+}
+
+/* Jerry Lady */
+#jerry-lady-container {
+	position: absolute;
+	left: 504px;
+	width: 153px;
+	background-position: -504px;
+}
+
+#jerry-lady-title {
+    top: 0px;
+    left: 522px;
+}
+
+#jerry-lady {
+	width: 153px;
+}
+
+/* david cleveland */
+#david-cleveland-container {
+    position: absolute;
+    left: 656px;
+    width: 120px;
+    background-position: -656px;
+}
+
+#david-cleveland-title {
+    top: 16px;
+    left: 656px;
+}
+
+#david-cleveland {
+    width: 120px;
+}
+
+/* marty loudon */
+#marty-loudon-container {
+    position: absolute;
+    left: 776px;
+    width: 166px;
+    background-position: -776px;
+}
+
+#marty-loudon-title {
+    top: 14px;
+    left: 818px;
+}
+
+#marty-loudon {
+    width: 166px;
+}
